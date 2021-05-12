@@ -32,7 +32,7 @@ class Prodotto
     }
 }
 
-class employee extends Prodotto
+class Article_home extends Prodotto
 {
     //attributes
     public $peso;
@@ -50,5 +50,5 @@ $prod_tech->setSconto('informatica', 699);
 var_dump($prod_tech);
 
 
-$prod_home = new employee('cucina', 'lavastoviglie', 499, 'rex', 1, '200kg');
+$prod_home = new Article_home('cucina', 'lavastoviglie', 499, 'rex', 1, '200kg');
 var_dump($prod_home);
